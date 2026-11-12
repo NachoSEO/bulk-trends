@@ -87,7 +87,7 @@ async function sendTasksInBatches(keywordsList, location, timeRange, type, categ
             time_range: timeRange,
             type,
             category_code:categoryCode,
-            tag: 'ips'
+            tag: 'scrabble'
         }));
 
         // Enviar el lote de tareas
